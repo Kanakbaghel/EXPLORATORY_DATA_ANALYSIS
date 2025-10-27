@@ -1,4 +1,4 @@
-<h1 align="center">Exploratory Data Analysis (EDA) - Python Mini Project</h1>
+<h1 align="center">Netflix Movies & TV Shows – Exploratory Data Analysis (EDA)</h1>
 <p align="center"><em>TechNest Task : 5 for Netflix Movies and TV Shows</em></p>
 
 ---
@@ -7,66 +7,124 @@
 
 ---
 
-## Learning Outcomes Addressed
+Insightful EDA of Netflix's movie and TV show catalog. Uncover trends, genres, rating patterns, and geographic distributions using well-organized Python notebooks with robust visualizations and commentary.
 
-- Understand the purpose and importance of Exploratory Data Analysis (EDA) in data science.
-- Apply statistical summaries and visualizations to describe the key features of a dataset.
-- Identify data patterns, correlations, and anomalies through graphical and quantitative methods.
-- Formulate and test hypotheses based on EDA findings to inform further analysis.
----
+***
 
-## Introduction
+## Table of Contents
 
-Netflix is one of the most popular media and video streaming platforms. They have over 8000 movies or tv shows available on their platform, as of mid-2021, they have over 200M Subscribers globally. This tabular dataset consists of listings of all the movies and tv shows available on Netflix, along with details such as - cast, directors, ratings, release year, duration, etc.
+- [Overview](#overview)
+- [Dataset](#dataset)
+- [Learning Outcomes](#learning-outcomes)
+- [Project Workflow](#project-workflow)
+- [Installation & Usage](#installation--usage)
+- [Project Structure](#project-structure)
+- [Results & Insights](#results--insights)
+- [Next Steps](#next-steps)
+- [Contributing](#contributing)
+- [Contact](#contact)
+- [License](#license)
 
----
+***
 
-## Data Description
+## Dataset
 
- Each row corresponds to a unique customer transaction. Below are the columns available in the dataset: 
-| Column Name         | Description                                      |
-|---------------------|--------------------------------------------------|
-| show_id | Unique identifier |
-|type | Movie or TV Show |
-|title | Name of the content |
-|director | Director(s) (if available) |
-|cast | Main cast members |
-|country | Country of origin |
-|date_added | Date added to Netflix |
-|release_year | Year of original release |
-|rating | Content rating (e.g., PG-13, TV-MA) |
-|duration | Runtime or number of seasons |
-|listed_in | Genre categories |
-|description | Brief synopsis |
+**Source:** Netflix Movies & TV Shows Dataset (Kaggle)
 
----
+*Place `Netflix_dataset.zip` in your working directory.*
 
-## Task to be performed
-- CONDUCT A COMPREHENSIVE EDA ON A DATASET.
-- IDENTIFY TRENDS, OUTLIERS, AND CORRELATIONS USING - - VISUALIZATIONS.
-- SUGGEST INITIAL HYPOTHESES FOR MODELING.
-- A WELL-DOCUMENTED JUPYTER NOTEBOOK WITH INSIGHTS AND VISUALS.
+***
 
----
-## Reflections of Performing Tasks
+## Learning Outcomes
 
----
-<img width="998" height="508" alt="image" src="https://github.com/user-attachments/assets/3ba4ac84-6536-440e-8cee-619ed34c8fd9" />
-<p align="center"><strong>--- Top 10 Countries Producing Netflix Content ---</strong></p>
+- Understand the core purpose and importance of EDA in data science
+- Apply statistical summaries and visualizations to describe dataset features
+- Identify patterns, trends, and outliers
+- Formulate and test hypotheses based on data findings
 
----
+***
 
-## Tech Stack
+## Project Workflow
 
-| Tool        | Purpose                      |
-|-------------|------------------------------|
-| Python      | Core programming language    |
-| Pandas      | Data manipulation            |
-| NumPy       | Numerical operations         |
-| Matplotlib  | Static visualizations        |
-| Seaborn     | Statistical plots            |
-| Plotly      | Interactive charts (optional) |
-| Jupyter     | Notebook-based analysis      |
+- **Data Preparation & Cleaning**
+  - Extract, load, and preprocess Netflix catalog data
+
+- **Exploratory Data Analysis**
+  - Overview and summary statistics
+  - Visualize top genres, most frequent actors/directors, and release trends
+  - Analyze distribution by country, rating, and year
+  - Outlier and anomaly detection
+
+- **Correlations and Patterns**
+  - Cross-analysis by genre, year, and country
+  - Identify content and audience targeting patterns
+
+- **Hypothesis Generation**
+  - Suggest initial hypotheses for future modeling based on EDA insights
+
+***
+
+## Installation & Usage
+
+**Requirements**
+
+- Python 3.7+
+- Jupyter Notebook
+- pandas, numpy, matplotlib, seaborn, (plotly optional)
+
+```bash
+pip install pandas numpy matplotlib seaborn plotly
+```
+
+**Steps**
+
+1. Clone/download this repo.
+2. Add `Netflix_dataset.zip` to the project folder.
+3. Run `Netflix_EDA.ipynb` or `NetflixBehavior_Analysis.ipynb` for insights and visualizations.
+
+***
+
+## Project Structure
+
+```
+├── Netflix_dataset.zip              # Netflix catalog dataset
+├── Netflix_EDA.ipynb                # Main EDA notebook
+├── NetflixBehavior_Analysis.ipynb   # User/content behavior notebook
+├── README.md                        # Project documentation
+└── LICENSE                          # License file
+```
+
+***
+
+## Results & Insights
+
+- Visualized *top 10 countries* producing Netflix content
+- Revealed genre distribution and rating patterns across years
+- Highlighted trends: global content expansion, shifting genre focus, evolving ratings
+- Provided actionable hypotheses for deeper modeling and prediction tasks
+
+***
+
+## Next Steps
+
+- Expand analysis on user behavior and clustering (recommendation system potential)
+- Integrate interactive dashboards with Plotly
+- Apply machine learning: content success prediction or viewer segmentation
+
+***
+
+## Contributing
+
+Contributions are welcome!  
+Open [issues](https://github.com/Kanakbaghel/EXPLORATORY_DATA_ANALYSIS/issues) for feedback, suggestions, or bug reports.
+
+***
+
+## Contact
+
+For questions or collaboration, reach out to [Kanakbaghel](https://github.com/Kanakbaghel).
+
+***
 
 ---
 > _“Data becomes meaningful when it tells a story that leads to better decisions.”_  
