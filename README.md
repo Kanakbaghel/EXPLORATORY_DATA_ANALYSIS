@@ -2,7 +2,8 @@
 <p align="center"><em>TechNest Task : 5 for Netflix Movies and TV Shows</em></p>
 
 ---
-
+ _Explore my more TechNest Tasks_ [Here](https://github.com/Kanakbaghel/TechNest-Internship)
+   -----------
 <img width="4774" height="2500" alt="image" src="https://github.com/user-attachments/assets/283ad029-5c3e-40bb-9f93-90edbde7b22b" />
 
 ---
